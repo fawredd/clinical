@@ -1,8 +1,8 @@
 <?php
- $host_db = "localhost";
- $user_db = "root";
- $pass_db = "-Clave1";
- $db_name = "mibase";
+ $host_db = $_ENV['POSTGRES_HOST']; 
+ $user_db = $_ENV['POSTGRES_USER']; 
+ $pass_db = $_ENV['POSTGRES_PASSWORD']; 
+ $db_name = $_ENV['POSTGRES_DATABASE']; 
  
  $conexion = new mysqli($host_db, $user_db, $pass_db, $db_name);
 if ($conexion->connect_error) {
