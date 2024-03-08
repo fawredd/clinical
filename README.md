@@ -1,3 +1,2 @@
 Incursionando en PHP.
 Desarrollo de un sistema de seguimiento de pacientes para un geriatrico.
-Pendiente separar front de back, utilizar algun framework, comentar codigo, docker...
