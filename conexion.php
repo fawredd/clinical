@@ -1,8 +1,8 @@
 <?php
- $host_db = $_ENV['POSTGRES_HOST']; 
- $user_db = $_ENV['POSTGRES_USER']; 
- $pass_db = $_ENV['POSTGRES_PASSWORD']; 
- $db_name = $_ENV['POSTGRES_DATABASE']; 
+ $host_db = $_ENV['host_db'];
+ $user_db = $_ENV['user_db']; 
+ $pass_db = $_ENV['pass_db']; 
+ $db_name = $_ENV['db_name']; 
  
  $conexion = new mysqli($host_db, $user_db, $pass_db, $db_name);
 if ($conexion->connect_error) {
