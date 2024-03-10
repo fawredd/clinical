@@ -243,7 +243,7 @@ CREATE TABLE `mm_pacientes` (
 --
 
 INSERT INTO `mm_pacientes` (`id`, `tipodocumento`, `documento`, `nombre`, `apellido`, `sexo`, `fechanacimiento`, `direccion`, `provincia`, `localidad`, `codigopostal`, `telefono`, `celular`, `email`, `gruposanguineo`, `obrasocial`, `numeroafiliado`, `comentarios`, `usuariocreacion`, `fechaalta`, `id_empresa`, `responsable_nombre`, `responsable_doc`, `responsable_tel`, `responsable_email`, `responsable_dir`, `modificacion`, `fechafallecimiento`, `fechabaja`) VALUES
-(2, 1, '55555555', 'Pepe', 'Pepon', 0, '1950-01-01', 'Calle 1234', '1', 'Caba', '1054', '011 555555555', '011 66666666', 'grupoaclarecer+prueba@gmail.com', '1', 'OSDE', '123134145134514', '', 1, '2022-11-02', 2, 'El Responsable', 'DNI 000000', '88888888', '', 'Esta es la direccion del responsable', '2022-11-02', '0000-00-00', '0000-00-00');
+(2, 1, '55555555', 'Pepe', 'Pepon', 0, '1950-01-01', 'Calle 1234', '1', 'Caba', '1054', '011 555555555', '011 66666666', 'x@x.com', '1', 'OSDE', '123134145134514', '', 1, '2022-11-02', 2, 'El Responsable', 'DNI 000000', '88888888', '', 'Esta es la direccion del responsable', '2022-11-02', '0000-00-00', '0000-00-00');
 
 -- --------------------------------------------------------
 
@@ -300,7 +300,7 @@ CREATE TABLE `mm_usuarios` (
 --
 
 INSERT INTO `mm_usuarios` (`id`, `nombre`, `apellido`, `email`, `clave`, `tipousuario`, `activo`, `alta`, `modificacion`, `direccion`, `provincia`, `localidad`, `cp`, `telefono`, `celular`, `tipodocumento`, `numerodocumento`, `matricula`, `especialidad`, `id_empresa`, `token`, `comentarios`, `usuariocarga`) VALUES
-(1, 'Admin', 'Admin', 'grupoaclarecer@gmail.com', '$2y$10$43kLmV30sPHQw.tqf7LaTeFZqyv6INbIxBSQXyYbYKX1q2WGxz5Gu', 1, 1, '2022-11-01', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2, '$2y$10$yHvEL/laqgCtpad2q24r1./uK4CFfBzleknYh5KqxvEwq2llk13iy', NULL, 0);
+(1, 'Admin', 'Admin', 'x@x.com', '$2y$10$43kLmV30sPHQw.tqf7LaTeFZqyv6INbIxBSQXyYbYKX1q2WGxz5Gu', 1, 1, '2022-11-01', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 2, '$2y$10$yHvEL/laqgCtpad2q24r1./uK4CFfBzleknYh5KqxvEwq2llk13iy', NULL, 0);
 
 --
 -- Índices para tablas volcadas
